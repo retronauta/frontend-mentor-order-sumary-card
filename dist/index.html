@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="output.css" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
+  <body
+    class="font-red-hat-display min-h-screen flex justify-center items-center bg-pale-blue bg-mobile-background bg-contain bg-no-repeat bg-top desktop:bg-desktop-background desktop:bg-contain"
+  >
+    <div
+      class="block max-w-screen-mobile bg-white rounded-3xl text-base flex-col justify-center text-center"
+    >
+      <img src="./images/illustration-hero.svg" alt="" class="rounded-t-xl" />
+      <div>
+        <h1 class="text-center font-black text-dark-blue text-2xl mt-10">
+          Order Summary
+        </h1>
+        <p
+          class="text-base font-medium mb-8 text-desaturated-blue px-14 mt-5 leading-7 tracking-wide"
+        >
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </div>
+
+      <div
+        class="flex bg-very-pale-blue mx-8 py-4 px-4 rounded-lg justify-between items-center"
+      >
+        <div class="flex">
+          <img src="./images/icon-music.svg" alt="music icon" class="mr-7" />
+          <div class="flex-col">
+            <span class="block font-black text-dark-blue">Annual Plan</span>
+            <span class="block text-desaturated-blue">$59.99/year</span>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="text-bright-blue font-bold underline active:no-underline active:text-desaturated-blue"
+          >Change</a
+        >
+      </div>
+
+      <div
+        class="max-w-full flex-col justify-center items-center align-middle mb-9"
+      >
+        <button
+          class="bg-bright-blue text-white block w-10/12 mx-auto h-14 font-bold rounded-xl my-7 tracking-wider shadow-xl shadow-bright-blue/25 active:bg-bright-blue/80"
+        >
+          Proceed to Payment
+        </button>
+        <button
+          class="block mx-auto font-extrabold text-desaturated-blue text-center tracking-wide active:text-dark-blue"
+        >
+          Cancel Order
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
