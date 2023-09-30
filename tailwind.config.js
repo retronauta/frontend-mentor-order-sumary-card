@@ -17,12 +17,6 @@ module.exports = {
         mobile: '375px',
         desktop: '1440px',
       },
-      backgroundImage: {
-        'mobile-background':
-          "url('/dist/images/pattern-background-mobile.svg')",
-        'desktop-background':
-          "url('/dist/images/pattern-background-desktop.svg')",
-      },
     },
   },
   plugins: [],

@@ -650,20 +650,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-mobile-background {
-  background-image: url('/dist/images/pattern-background-mobile.svg');
+.bg-\[url\(\'\/images\/pattern-background-mobile\.svg\'\)\] {
+  background-image: url('/images/pattern-background-mobile.svg');
+}
+
+.bg-\[url\(\'\.\/images\/pattern-background-mobile\.svg\'\)\] {
+  background-image: url('./images/pattern-background-mobile.svg');
 }
 
 .bg-contain {
   background-size: contain;
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
 }
 
 .bg-top {
@@ -792,26 +788,16 @@ video {
   text-decoration-line: none;
 }
 
-@media (min-width: 1024px) {
-  .lg\:bg-desktop-background {
-    background-image: url('/dist/images/pattern-background-desktop.svg');
-  }
-}
-
 @media (min-width: 1440px) {
-  .desktop\:bg-desktop-background {
-    background-image: url('/dist/images/pattern-background-desktop.svg');
+  .desktop\:bg-\[url\(\'\/images\/pattern-background-desktop\.svg\'\)\] {
+    background-image: url('/images/pattern-background-desktop.svg');
   }
 
-  .desktop\:bg-cover {
-    background-size: cover;
+  .desktop\:bg-\[url\(\'\.\/images\/pattern-background-desktop\.svg\'\)\] {
+    background-image: url('./images/pattern-background-desktop.svg');
   }
 
   .desktop\:bg-contain {
     background-size: contain;
-  }
-
-  .desktop\:bg-auto {
-    background-size: auto;
   }
 }
